@@ -15,7 +15,7 @@ export default async function handler(req, res) {
   const CLIENT_KEY = process.env.sbawyevz981byo72o7;
   const CLIENT_SECRET = process.env.CDub1xDKsDQC1qitvJSGBq7wSX4mSVqL;
   // ⚠️ Doit être IDENTIQUE à celui dans TikTok Developer + celui de ton front
-  const REDIRECT_URI = process.env.REDIRECT_URI || "https://raphaelpro022.github.io/tiktok-site/callback.html";
+  const REDIRECT_URI = process.env.https://raphaelpro022.github.io/tiktok-site/callback.html || ;
 
   if (!CLIENT_KEY || !CLIENT_SECRET || !REDIRECT_URI) {
     return res.status(500).json({

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/exchange.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/exchange", "dest": "api/exchange.js" }
+  ]
+}

@@ -20,8 +20,8 @@ export default async function handler(req, res) {
 
     // ✅ Appel correct à l’API TikTok OAuth v2
     const params = new URLSearchParams();
-    params.append("client_key", process.env.TIKTOK_CLIENT_KEY);
-    params.append("client_secret", process.env.TIKTOK_CLIENT_SECRET);
+    params.append("client_key", process.env.sbawyevz981byo72o7);
+    params.append("client_secret", process.env.CDub1xDKsDQC1qitvJSGBq7wSX4mSVqL);
     params.append("code", code);
     params.append("grant_type", "authorization_code");
     params.append("redirect_uri", "https://raphaelpro022.github.io/tiktok-site/callback.html");

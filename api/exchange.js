@@ -9,8 +9,8 @@ export default async function handler(req, res) {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams({
-      client_key: process.env.TIKTOK_CLIENT_KEY,
-      client_secret: process.env.TIKTOK_CLIENT_SECRET,
+      client_key: process.env.sbawyevz981byo72o7,
+      client_secret: process.env.CDub1xDKsDQC1qitvJSGBq7wSX4mSVqL,
       code,
       grant_type: "authorization_code",
       redirect_uri: "https://raphaelpro022.github.io/tiktok-site/callback.html"

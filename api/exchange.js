@@ -1,14 +1,15 @@
 // api/exchange.js
 
 export default async function handler(req, res) {
-  // ✅ CORS headers pour autoriser GitHub Pages ou autre domaine
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
-  // Prévol CORS
   if (req.method === "OPTIONS") {
     return res.status(200).end();
+  }
+
+  // ... ton code d’échange TikTok ...
   }
 
   // Accepte uniquement POST
